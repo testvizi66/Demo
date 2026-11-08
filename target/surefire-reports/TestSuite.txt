@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 22.929 s <<< FAILURE! - in TestSuite
+submitOrder(rahulshettyacademy.tests.SubmitOrderTest)  Time elapsed: 0.302 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (528, -261)
+  (Session info: chrome=156.0.8078.81)
+Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54c73d44d2dea23aafe2035fdf2d6f94, clickElement {id=f.4BBF405AD964998A85F649BEF25E4D16.d.12C5595EE18E378756194070CFA4AE17.e.147}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.81, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\RAMESH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54201}, goog:processID: 21996, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54201/devtoo..., se:cdpVersion: 156.0.8078.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (54c73d44d2dea23aafe2035fdf2d6f94)] -> css selector: button[routerlink*='cart']]
+Session ID: 54c73d44d2dea23aafe2035fdf2d6f94
+	at rahulshettyacademy.tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:43)
+
+submitOrder(rahulshettyacademy.tests.ErrorValidation)  Time elapsed: 1.514 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (383, 708)
+  (Session info: chrome=156.0.8078.81)
+Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34d42a74bd2e0b019fd9f55be6425b97, clickElement {id=f.B0AF9E5D0FDE7EC7F58E6D9A9DDBF8C1.d.1268418CEBD815F5D081C304D7B234C9.e.6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.81, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\RAMESH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54340}, goog:processID: 14048, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54340/devtoo..., se:cdpVersion: 156.0.8078.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (34d42a74bd2e0b019fd9f55be6425b97)] -> id: login]
+Session ID: 34d42a74bd2e0b019fd9f55be6425b97
+	at rahulshettyacademy.tests.ErrorValidation.submitOrder(ErrorValidation.java:20)
+

@@ -30,7 +30,7 @@ import rahulshettyacademy.pageObjects.ConfirmationPage;
 public class SubmitOrderTest extends BaseTest{
      //changes from X person
 	//Submit order test flow
-	//chnages from y persn
+	//chnages from y persn with no changes
 	String productname="ZARA COAT 3";
 	String countryName="India";
 	

@@ -28,7 +28,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import rahulshettyacademy.pageObjects.ConfirmationPage;
 
 public class SubmitOrderTest extends BaseTest{
-     //changes
+     //chang
 	//Submit order test flow
 	//comment part
 	String productname="ZARA COAT 3";

@@ -30,7 +30,6 @@ import rahulshettyacademy.pageObjects.ConfirmationPage;
 public class SubmitOrderTest extends BaseTest{
      //changes from X person
 	//Submit order test flow
-	//comment part
 	String productname="ZARA COAT 3";
 	String countryName="India";
 	
